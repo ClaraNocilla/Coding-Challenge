@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin=0;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+.container{
+  background-color: rgba(0,0,0,0.5);
+  margin-left:15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  padding: 5%;
+  border-radius: 20px;
+
+}
+.logo{
+  color: #00EE00;
+  text-align: center;
+}
+.title{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+  width:25%;
+}
+.navigation{
+  background-color: #00EE00;
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 9px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+ input~h3{
+  display: inline-block;
+  margin-bottom:2px;
+}
+
+.lim>h3,div{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.carica{
+  height: 25px;
+  border-radius: 7px;
+}
+
+.orangebox{
+  background-color: orange;
+  width: 25%;
+}
+
+.greenbox{
+  background-color: lime;
+  width: 60%;
+}
+
+.redbox{
+  background-color: indianred;
+  width: 12%;
+}
